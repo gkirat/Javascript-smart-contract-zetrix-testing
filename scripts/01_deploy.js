@@ -8,10 +8,9 @@ const sleep = require("../utils/delay");
 /*
  Specify the zetrix address and private key
  */
-// const privateKey = process.env.PRIVATE_KEY;
-// const sourceAddress = process.env.ZTX_ADDRESS;
-const privateKey = "privBw3WuHU8KDY7NhhcC3a8d8cE25u8ZbiVYyk2nB9ePL8NX4GWVahX"
-const sourceAddress = "ZTX3Z2ehcTibc7xqFBDZyhEDMRxmM6mwH32E6"
+const privateKey = process.env.PRIVATE_KEY;
+const sourceAddress = process.env.ZTX_ADDRESS;
+
 const nodeUrl = "52.81.215.222:19333"
 // console.log(privateKey,sourceAddress)
 

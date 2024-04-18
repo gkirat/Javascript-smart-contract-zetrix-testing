@@ -8,8 +8,8 @@ require('mocha-generators').install();
 /*
  Specify the zetrix address and private key
  */
-const privateKey = "privBw3WuHU8KDY7NhhcC3a8d8cE25u8ZbiVYyk2nB9ePL8NX4GWVahX";
-const sourceAddress = "ZTX3Z2ehcTibc7xqFBDZyhEDMRxmM6mwH32E6"
+ const privateKey = process.env.PRIVATE_KEY;
+ const sourceAddress = process.env.ZTX_ADDRESS;
 const nodeUrl = "52.81.215.222:19333"
 /*
  Specify the smart contract address
@@ -20,8 +20,8 @@ const nodeUrl = "52.81.215.222:19333"
 const contractAddress = "ZTX3KMywRapcyKZD9iD154mDFxBTkWadiVGcb"
 
 
-const address2 = "ZTX3GcfTpPRyi9JqndSv326U9QAdCeJnEoLQi"
-const privateKey2 = "privBzzknRpojo3ohgryVqsS87DFYx5tbFZy1a7UEo5ottKBMp1pmhmK"
+const address2 = ""
+const privateKey2 = ""
 const address3 = ""
 const privateKey3 = ""
 const address4 = ""
